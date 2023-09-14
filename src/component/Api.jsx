@@ -19,7 +19,7 @@ const Api = () => {
     }
     return (
         <>
-            <section className=''>
+            <section>
                 <div id='card' className='bg-white shadow p-4 w-96  mx-auto mt-40 rounded-lg'>
                 <h1 className='text-indigo-900 text-center font-semibold dark:text-black'>ADVICE #{detail.id}</h1>
                     <h1 className='text-indigo-900 font-semibold dark:text-black mt-3 text-center'>"{detail.advice}"</h1>
